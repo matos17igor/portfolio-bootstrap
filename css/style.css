@@ -173,12 +173,12 @@ i{
     color: #fff;
 }
 
-.footer-pai {
-    display: flex;
-    margin-left: 650px;
+.footer-items {
+    position: relative;
+    border-right: 200px;
 }
 
-footer p {
+footer {
     color: white;
 }
 
