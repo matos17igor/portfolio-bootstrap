@@ -64,7 +64,6 @@ button{
 }
 
 button:hover{
-    background-color: #2ecc71;
     color: #fff;
     transition: 0.5s;
 }
@@ -104,12 +103,7 @@ button:hover{
     font-size: 17px;
 }
 
-.redes-sociais{
-    position: absolute;
-    left: 350px;
-    top: 600px;
-    height: 80px;
-}
+
 
 .redes-sociais a{
     color: #2ecc71;
@@ -140,6 +134,11 @@ i{
     color: #fff;
 }
 
+.aboutme h1 {
+    margin-bottom: 100px;
+}
+    
+
 
 .formacao {
     text-align: center;
@@ -149,12 +148,20 @@ i{
     color: #fff;
 }
 
+.formacao h1 {
+    margin-bottom: 100px;
+}
+
 .atuacao {
     text-align: center;
     margin-top: 100px;
     justify-content: center;
     align-items: center;
     color: #fff;
+}
+
+.atuacao h1 {
+    margin-bottom: 100px;
 }
 
 .portfolio {
@@ -168,9 +175,12 @@ i{
 .contato {
     text-align: center;
     margin-top: 100px;
-    justify-content: center;
-    align-items: center;
     color: #fff;
+    height: 600px;
+}
+
+.contato h1 {
+    margin-bottom: 100px;
 }
 
 .footer-items {
@@ -178,17 +188,9 @@ i{
     border-right: 200px;
 }
 
-footer {
+/* footer {
     color: white;
-}
-
-.footer-text {
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 150px;
-    margin-top: 80px;
-}
+} */
 
 .contatos {
     justify-content: center;
@@ -206,4 +208,8 @@ footer h5 {
     justify-content: center;
     align-items: center;
     height: 50px;
+}
+
+.card {
+    margin-bottom: 30px;
 }
