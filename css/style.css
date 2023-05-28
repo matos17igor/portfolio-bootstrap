@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins" , sans-serif;
+    font-family: "Poppins", sans-serif;
     text-decoration: none;
     list-style: none;
 }
 
-body{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/background.jpg);
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background.jpg);
     background-size: cover;
     background-position: center;
     height: 200vh;
     width: 100%;
 }
 
-header{
+header {
     height: 60px;
     width: 100%;
-    padding-top: 1rem; 
+    padding-top: 1rem;
     position: fixed;
     z-index: 1;
     background: black;
@@ -33,7 +33,7 @@ footer {
     color: white;
 }
 
-.cabeçalho-link{
+.cabeçalho-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,20 +42,20 @@ footer {
     font-weight: 300;
 }
 
-.cabeçalho-link a{
+.cabeçalho-link a {
     color: #fff;
     font-size: 17px;
 }
 
-.cabeçalho-link a:hover{
-    color:  #2ecc71;
+.cabeçalho-link a:hover {
+    color: #2ecc71;
     transition: 0.3s all;
 }
 
-button{
+button {
     color: #2ecc71;
     background: transparent;
-    border:solid 1px #2ecc71;
+    border: solid 1px #2ecc71;
     padding: 5px;
     border-radius: 15px;
     font-size: 15px;
@@ -63,7 +63,7 @@ button{
     width: 150px;
 }
 
-button:hover{
+button:hover {
     color: #fff;
     transition: 0.5s;
 }
@@ -74,7 +74,7 @@ button:hover{
     opacity: 5%;
 }
 
-.container-text{
+.container-text {
     width: 100%;
     padding: 150px 0 0 230px;
     height: 750px;
@@ -84,38 +84,42 @@ button:hover{
     margin-top: 130px;
 }
 
-.text h2{
+.text h2 {
     color: #fff;
 }
 
-.text h1{
+.text h1 {
     color: #fff;
     margin-top: 10px;
 }
 
-.text span{
-    color: #2ecc71; 
+.text span {
+    color: #2ecc71;
 }
 
-.text p{
+.text p {
     color: #fff;
     font-weight: 500;
     font-size: 17px;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
 
-
-.redes-sociais a{
+.redes-sociais a {
     color: #2ecc71;
     padding: 10px;
 }
 
-.btn{
+.btn {
     margin-top: 15px;
 }
 
-i{
+i {
     font-size: 30px;
+    color: #2ecc71;
 }
 
 .igor {
@@ -137,7 +141,7 @@ i{
 .aboutme h1 {
     margin-bottom: 100px;
 }
-    
+
 
 
 .formacao {
@@ -198,7 +202,7 @@ i{
     width: 450px;
     margin-top: 80px;
 }
- 
+
 footer hr {
     opacity: 20%;
 }
@@ -212,4 +216,9 @@ footer h5 {
 
 .card {
     margin-bottom: 30px;
+}
+
+.modal-body-img {
+    height: 100px;
+    width: 100px;
 }
