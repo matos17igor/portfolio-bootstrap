@@ -33,74 +33,10 @@ footer {
     color: white;
 }
 
-.cabeçalho-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 3rem;
-    font-weight: 300;
-}
-
-.cabeçalho-link a {
-    color: #fff;
-    font-size: 17px;
-}
-
-.cabeçalho-link a:hover {
-    color: #2ecc71;
-    transition: 0.3s all;
-}
-
-button {
-    color: #2ecc71;
-    background: transparent;
-    border: solid 1px #2ecc71;
-    padding: 5px;
-    border-radius: 15px;
-    font-size: 15px;
-    cursor: pointer;
-    width: 150px;
-}
-
-button:hover {
-    color: #fff;
-    transition: 0.5s;
-}
-
 .hr-simples {
     margin-top: 250px;
     text-align: center;
     opacity: 5%;
-}
-
-.container-text {
-    width: 100%;
-    padding: 150px 0 0 230px;
-    height: 750px;
-}
-
-.text {
-    margin-top: 130px;
-}
-
-.text h2 {
-    color: #fff;
-}
-
-.text h1 {
-    color: #fff;
-    margin-top: 10px;
-}
-
-.text span {
-    color: #2ecc71;
-}
-
-.text p {
-    color: #fff;
-    font-weight: 500;
-    font-size: 17px;
 }
 
 a {
@@ -122,14 +58,6 @@ i {
     color: #2ecc71;
 }
 
-.igor {
-    position: relative;
-    width: 200px;
-    border-radius: 100%;
-    left: 650px;
-    bottom: 170px;
-}
-
 .aboutme {
     text-align: center;
     margin-top: 100px;
@@ -141,8 +69,6 @@ i {
 .aboutme h1 {
     margin-bottom: 100px;
 }
-
-
 
 .formacao {
     text-align: center;
@@ -192,19 +118,11 @@ i {
     border-right: 200px;
 }
 
-/* footer {
-    color: white;
-} */
-
 .contatos {
     justify-content: center;
     align-items: center;
     width: 450px;
     margin-top: 80px;
-}
-
-footer hr {
-    opacity: 20%;
 }
 
 footer h5 {
